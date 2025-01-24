@@ -1,9 +1,10 @@
 <!-- Проект Седона WW -->
+ <!--Создал для файла styles.css папку styles-->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Заголовок</title>
+    <title>SEDONA</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
@@ -11,8 +12,7 @@
         <nav class="navigation">
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <a class="navigation-link navigation-logo visually-hidden" href="#">Иконка Седоны
-                    </a>
+                    <img class="navigation-link navigation-logo" src="styles/logo_sedona.svg" alt="Иконка Седоны">
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link" href="index.html">Главная</a>
@@ -26,13 +26,13 @@
             </ul>
             <ul class="navigation-list navigation-user ">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">
+                    <img class="navigation-link" src="styles/icon_search.svg" href="#">
                         <span class="visually-hidden">Поиск
                         </span>
                     </a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">
+                    <img class="navigation-link" src="styles/icon_favourite.svg" href="#">
                         <span class="visually-hidden">Избранное
                         </span>
                     </a>
@@ -47,8 +47,10 @@
     </header>
     <!--Main-->
     <main class="main-index">
-        <h1 class="visually-hidden">SEDONA
+        <h1 class="visually-hidden">Седона
         </h1>
+        <img src="styles/index-background.jpg" alt="Великолепный вид на Седону">
+        <img src="styles/welcome.svg" alt="Текст Добро пожаловать в Седону">
         <section>
          <p class="subtitle">Седона — небольшой городок в Аризоне, заслуживающий большего!
             </p>
@@ -66,7 +68,7 @@
                 </h3>
                 <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь
                 </p>
-                <img src="#" alt="Вид с балкона">
+                <img src="styles/view_from_hotel.jpg" alt="Вид с балкона">
             </li>
             <!--2 пункт списка --> 
             <li class="advantages-item small-item">
@@ -90,7 +92,7 @@
                 </li>
                 <!--5 пункт списка -->
                 <li class="advantages-item big-item">
-                    <img src="#" alt="Вид на Каньон">
+                    <img src="styles/pic_w_mountains.jpg" alt="Вид на Каньон">
                     <h3 class="advantages-title">Там есть мост дьявола
                     </h3>
                     <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется
@@ -104,6 +106,7 @@
         <ul class="advantages_list internal">
             <!--1 пункт списка --> 
             <li class="advantages-item-internal">
+                <img src="styles/icon_house.svg">
                 <h3>Жилье
                 </h3>
                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!
@@ -111,6 +114,7 @@
             </li>
             <!--2 пункт списка --> 
             <li class="advantages-item-internal">
+                <img src="styles/icon_food.svg">
                 <h3>Еда
                 </h3>
                 <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
@@ -118,6 +122,7 @@
             </li>
             <!--3 пункт списка --> 
             <li class="advantages-item-internal">
+                <img src="styles/icon_present.svg">
                 <h3>Сувениры
                 </h3>
                 <p>Не только китайского, но и настоящего местного производства!
@@ -133,6 +138,7 @@
             </button>
         </section>
         <section class="contacts">
+            <img src="styles/background_mountains.jpg">
             <h2 class="contacts-text">Подпишитесь на рассылку
             </h2>
             <p class="contacts-text-explanation">Только полезная информация и никакого спама, честное бойскаутское! 
@@ -150,16 +156,19 @@
         <section class="footer-social">
             <ul class="footer-social-list">
                 <li class="footer-social-item">
+                    <img src="styles/icon_vk.svg">
                     <a class="button" href="https://vk.com/htmlacademy">
                         <span class="visually-hidden">Вконтакте</span>
                     </a>
                 </li>
                 <li class="footer-social-item">
+                    <img src="styles/icon_telegram.svg">
                     <a class="button" href="https://t.me/htmlacademy">
                         <span class="visually-hidden">Телеграм</span>
                     </a>
                 </li>
                 <li class="footer-social-item">
+                    <img src="styles/icon_youtube.svg">
                     <a class="button" href="https://www.youtube.com/user/htmlacademyru">
                         <span class="visually-hidden">Ютуб</span>
                     </a>
@@ -167,13 +176,12 @@
             </ul>
         </section>
         <section class="section-footer">
-            <p class="footer-phone-item" type="phone">
+            <p class="footer-phone-item" href="tel+78128121212">
                 +7 (812) 812-12-12
             </p>
         </section>
         <section class="footer-logo-html-academy">
-            <a class="visually-hidden" href="https://htmlacademy.ru/">Лого HTML Academy
-            </a>
+            <img class="footer-logo-html-academy" class="visually-hidden" src="styles/Logo_html_academy.svg" a="https://htmlacademy.ru/"> 
         </section>
     </footer>
   </body>
