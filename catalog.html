@@ -1,19 +1,17 @@
-<!-- Проект Седона -->
- <!--Это изз офиса-->
 <!DOCTYPE html>
+<!--скопировал хедер с обновленного индекса-->
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Заголовок</title>
+    <title>Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <!--Хедер-->
     <header class="page-header-logo">
         <nav class="navigation">
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <a class="navigation-link navigation-logo visually-hidden" href="index.html">Иконка Седоны
-                    </a>
+                    <img class="navigation-link navigation-logo" src="styles/logo_sedona.svg" alt="Иконка Седоны">
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link" href="index.html">Главная</a>
@@ -22,43 +20,47 @@
                     <a class="navigation-link" href="#">О Седоне</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link navigation-list-current" href="catalog.html">Гостиницы</a>
+                    <a class="navigation-link" href="catalog.html">Гостиницы</a>
                 </li>
             </ul>
             <ul class="navigation-list navigation-user ">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">
+                    <img class="navigation-link" href="#">
                         <span class="visually-hidden">Поиск
                         </span>
                     </a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">
+                    <img class="navigation-link" href="#">
                         <span class="visually-hidden">Избранное
                         </span>
                     </a>
-                </li>  <li class="navigation-item"></li>
-                <button class="button" href="#">
-                    <span class="header-text-want-here">Хочу сюда!
-                    </span>
-                </a>
-            </li>
+                </li>  
+                <li class="navigation-item"></li>
+                    <button class="button" href="#">
+                        <span class="header-text-want-here">Хочу сюда!
+                        </span>
+                </li>
            </ul>
         </nav>
     </header>
+    <!--закончил копировать-->
     <!--Main-->
     <main class="main-inner">
         <header class="innter-header">
-            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+            <h1 class="inner-header-title">Гостиницы Седоны
+            </h1>
             <!--Хлебные крошки-->
-                    <ul class="breadcrumbs">
-                        <li class="breadcrumbs-item">
-                            <a class="breadcrumbs-link visually-hidden" href="index.html">Главная</a>
-                        </li>
-                        <li class="breadcrumbs-item">
-                            <a class="breadcrumbs-link" href="catalog.html">Гостиницы</a>
-                        </li>
-                    </ul>
+             <ul class="breadcrumbs">
+                <li class="breadcrumbs-item">
+                  <a class="breadcrumbs-link visually-hidden" href="index.html">Главная
+                  </a>
+                </li>
+                <li class="breadcrumbs-item">
+                  <a class="breadcrumbs-link" href="catalog.html">Гостиницы
+                  </a>
+                </li>
+             </ul>
          </header>
          <section class="catalog-hotels">
              <h2 class="visually-hidden">Гостиницы с фильтрами</h2>
@@ -192,35 +194,41 @@
             <button class="button" type="submit">Подписаться</button>
         </form>
     </section>
-     </main>
-    <!--Футер-->
+    </main>
+    <!--Футер - тоже скопировал "обновленный"из индекса-->
     <footer class="page-footer"></footer>
         <section class="footer-social">
             <ul class="footer-social-list">
                 <li class="footer-social-item">
                     <a class="button" href="https://vk.com/htmlacademy">
-                        <span class="visually-hidden">Вконтакте</span>
+                        <img src="styles/icon_vk.svg">
+                        <span class="visually-hidden"Мы во Вконтакте>
+                        </span>
                     </a>
                 </li>
                 <li class="footer-social-item">
                     <a class="button" href="https://t.me/htmlacademy">
-                        <span class="visually-hidden">Телеграм</span>
+                        <img src="styles/icon_telegram.svg">
+                        <span class="visually-hidden"Мы в Телеграм>
+                        </span>
                     </a>
                 </li>
                 <li class="footer-social-item">
                     <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                        <span class="visually-hidden">Ютуб</span>
+                        <img src="styles/icon_youtube.svg">
+                        <span class="visually-hidden"Мы в Ютуб>
+                        </span>
                     </a>
                 </li>
             </ul>
         </section>
         <section class="section-footer">
-            <p class="footer-phone-item" type="phone">
-                +7 (812) 812-12-12
-            </p>
+            <a class="footer-phone-item" href="tel:+78128121212">+7 (812) 812-12-12
+            </a>
         </section>
         <section class="footer-logo-html-academy">
-            <a class="visually-hidden" href="https://htmlacademy.ru/">Лого HTML Academy
+            <a href="https://htmlacademy.ru/">
+                <img class="footer-logo-html-academy" src="styles/Logo_html_academy.svg">
             </a>
         </section>
     </footer>
