@@ -26,13 +26,13 @@
             </ul>
             <ul class="navigation-list navigation-user ">
                 <li class="navigation-item">
-                    <img class="navigation-link" src="styles/icon_search.svg" href="#">
+                    <img class="navigation-link" href="#">
                         <span class="visually-hidden">Поиск
                         </span>
                     </a>
                 </li>
                 <li class="navigation-item">
-                    <img class="navigation-link" src="styles/icon_favourite.svg" href="#">
+                    <img class="navigation-link" href="#">
                         <span class="visually-hidden">Избранное
                         </span>
                     </a>
@@ -49,8 +49,8 @@
     <main class="main-index">
         <h1 class="visually-hidden">Седона
         </h1>
-        <img src="styles/index-background.jpg" alt="Великолепный вид на Седону">
-        <img src="styles/welcome.svg" alt="Текст Добро пожаловать в Седону">
+        <img class="img_sedona_view" alt="Великолепный вид на Седону">
+        <img class="text_welcome" alt="Текст Добро пожаловать в Седону">
         <section>
          <p class="subtitle">Седона — небольшой городок в Аризоне, заслуживающий большего!
             </p>
@@ -92,7 +92,7 @@
                 </li>
                 <!--5 пункт списка -->
                 <li class="advantages-item big-item">
-                    <img src="styles/pic_w_mountains.jpg" alt="Вид на Каньон">
+                    <img src="styles/pic_w_canyon.jpg" alt="Вид на Каньон">
                     <h3 class="advantages-title">Там есть мост дьявола
                     </h3>
                     <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется
@@ -106,15 +106,17 @@
         <ul class="advantages_list internal">
             <!--1 пункт списка --> 
             <li class="advantages-item-internal">
-                <img src="styles/icon_house.svg">
-                <h3>Жилье
-                </h3>
-                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!
-                </p>
+                <!--Нужно будет исправить пункты в этом списке-->
+                <li class="advantages-item-internal">
+                    <!--<img>-->
+                    <h3>Жилье
+                    </h3>
+                    </a>
+                </li>
             </li>
             <!--2 пункт списка --> 
             <li class="advantages-item-internal">
-                <img src="styles/icon_food.svg">
+                <!--<img>-->
                 <h3>Еда
                 </h3>
                 <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
@@ -122,7 +124,7 @@
             </li>
             <!--3 пункт списка --> 
             <li class="advantages-item-internal">
-                <img src="styles/icon_present.svg">
+                <!--img-->
                 <h3>Сувениры
                 </h3>
                 <p>Не только китайского, но и настоящего местного производства!
@@ -138,6 +140,7 @@
             </button>
         </section>
         <section class="contacts">
+            <!--Пока здесь картинку оставляю, но мб ее нужно будет удалить и добавить в css-->
             <img src="styles/background_mountains.jpg">
             <h2 class="contacts-text">Подпишитесь на рассылку
             </h2>
@@ -155,33 +158,30 @@
     <footer class="page-footer">
         <section class="footer-social">
             <ul class="footer-social-list">
+               <li class="footer-social-item">
+                <a class="button" href="https://vk.com/htmlacademy">
+                    <img src="styles/icon_vk.svg" class="visually-hidden" Вконтакте>
+                </a>
+               </li>
                 <li class="footer-social-item">
-                    <img src="styles/icon_vk.svg">
-                    <a class="button" href="https://vk.com/htmlacademy">
-                        <span class="visually-hidden">Вконтакте</span>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <img src="styles/icon_telegram.svg">
                     <a class="button" href="https://t.me/htmlacademy">
-                        <span class="visually-hidden">Телеграм</span>
+                        <img src="styles/icon_telegram.svg" class="visually-hidden" Телеграм>
                     </a>
                 </li>
                 <li class="footer-social-item">
-                    <img src="styles/icon_youtube.svg">
                     <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                        <span class="visually-hidden">Ютуб</span>
+                    <img src="styles/icon_youtube.svg" class="visually-hidden" Ютуб>
                     </a>
                 </li>
             </ul>
         </section>
         <section class="section-footer">
-            <p class="footer-phone-item" href="tel+78128121212">
-                +7 (812) 812-12-12
-            </p>
+            <a class="footer-phone-item" href="tel:+78128121212">+7 (812) 812-12-12
+            </a>
         </section>
         <section class="footer-logo-html-academy">
-            <img class="footer-logo-html-academy" class="visually-hidden" src="styles/Logo_html_academy.svg" a="https://htmlacademy.ru/"> 
+            <a href="https://htmlacademy.ru/"><img class="footer-logo-html-academy" src="styles/Logo_html_academy.svg">
+            </a>
         </section>
     </footer>
   </body>
