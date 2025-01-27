@@ -1,10 +1,9 @@
-<!-- Проект Седона WW -->
- <!--Создал для файла styles.css папку styles-->
+<!-- Эту версию загружай на тот мак -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>SEDONA</title>
+    <title>Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
@@ -36,27 +35,32 @@
                         <span class="visually-hidden">Избранное
                         </span>
                     </a>
-                </li>  <li class="navigation-item"></li>
+                </li>  
+                <li class="navigation-item"></li>
                     <button class="button" href="#">
                         <span class="header-text-want-here">Хочу сюда!
                         </span>
-                    </a>
                 </li>
            </ul>
         </nav>
     </header>
     <!--Main-->
     <main class="main-index">
-        <h1 class="visually-hidden">Седона
+        <!--H1 H1 H1-->
+        <h1 class="visually-hidden"Седона>
         </h1>
-        <img class="img_sedona_view" alt="Великолепный вид на Седону">
-        <img class="text_welcome" alt="Текст Добро пожаловать в Седону">
+        <div>
+         <img class="title_img text_welcome" src="styles/welcome_title.svg" alt="Текст: Добро пожаловать в великолепную Седону, потому что Гранд-каньон - отстой">
+         <img class="title_img img_sedona_view" src="styles/title_background_mountains.jpg" alt="Великолепный вид на Седону">
+         <img class="titile_img white_space" src="styles/white_space_for_title_pic.png">
+        </div>
         <section>
-         <p class="subtitle">Седона — небольшой городок в Аризоне, заслуживающий большего!
-            </p>
-            <p class="text_reasons">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+         <h2 class="subtitle">Седона — небольшой городок в Аризоне, заслуживающий большего!
+         </h2>
+            <p class="subtitle_reasons">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
             </p>
         </section>
+        <!--H2 H2 H2-->
         <section class="advantages">
             <h2 class="visually-hidden">Преимущества
             </h2>
@@ -64,6 +68,7 @@
         <ul class="advantages_list external">
             <!--1 пункт списка --> 
             <li class="advantages-item big-item">
+                <!--H3 H3 H3-->
                 <h3 class="advantages-title">Настоящий городок
                 </h3>
                 <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь
@@ -99,21 +104,21 @@
                     </p>
                 </li> 
         </ul>
+        <!--H2 H2 H2-->
         <h2 class="user-motivation">Приезжайте в Седону отдохнуть в комфорте и уюте!
         </h2>
         <p class="user-motivation-description">Опытный персонал и качественное обслуживание!
         </p>
         <ul class="advantages_list internal">
             <!--1 пункт списка --> 
-            <li class="advantages-item-internal">
                 <!--Нужно будет исправить пункты в этом списке-->
                 <li class="advantages-item-internal">
-                    <!--<img>-->
+                    <!--<img>добавляем в css-->
                     <h3>Жилье
-                    </h3>
-                    </a>
+                        </h3>
+                        <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!
+                        </p>
                 </li>
-            </li>
             <!--2 пункт списка --> 
             <li class="advantages-item-internal">
                 <!--<img>-->
@@ -141,9 +146,9 @@
         </section>
         <section class="contacts">
             <!--Пока здесь картинку оставляю, но мб ее нужно будет удалить и добавить в css-->
-            <img src="styles/background_mountains.jpg">
-            <h2 class="contacts-text">Подпишитесь на рассылку
-            </h2>
+            <img src="styles/pic_w_canyon.jpg">
+            <p class="contacts-text">Подпишитесь на рассылку
+            </p>
             <p class="contacts-text-explanation">Только полезная информация и никакого спама, честное бойскаутское! 
             </p>
             <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -158,25 +163,29 @@
     <footer class="page-footer">
         <section class="footer-social">
             <ul class="footer-social-list">
-               <li class="footer-social-item">
-                <a class="button" href="https://vk.com/htmlacademy">
-                    <img src="styles/icon_vk.svg" class="visually-hidden" Вконтакте>
-                </a>
-               </li>
+                <li class="footer-social-item">
+                    <a class="button" href="https://vk.com/htmlacademy">
+                        <img src="styles/icon_vk.svg">
+                        <span class="visually-hidden"Мы во Вконтакте></span>
+                    </a>
+                </li>
                 <li class="footer-social-item">
                     <a class="button" href="https://t.me/htmlacademy">
-                        <img src="styles/icon_telegram.svg" class="visually-hidden" Телеграм>
+                        <img src="styles/icon_telegram.svg">
+                        <span class="visually-hidden"Мы в Телеграм></span>
                     </a>
                 </li>
                 <li class="footer-social-item">
                     <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                    <img src="styles/icon_youtube.svg" class="visually-hidden" Ютуб>
+                        <img src="styles/icon_youtube.svg">
+                        <span class="visually-hidden"Мы в Ютуб></span>
                     </a>
                 </li>
             </ul>
         </section>
         <section class="section-footer">
-            <a class="footer-phone-item" href="tel:+78128121212">+7 (812) 812-12-12
+            <a class="footer-phone-item" href="tel:+78128121212">
+                +7 (812) 812-12-12
             </a>
         </section>
         <section class="footer-logo-html-academy">
