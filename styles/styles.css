@@ -20,17 +20,57 @@ body {
   background-color: wheat;
 }
 
-.navigation-list {
-font-family: PT Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+header {
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
 }
 
+h2 {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;  
+}
 
+.heading_description { 
+  font-family: PT Sans;
+ font-weight: 400;
+ font-size: 22px;
+ line-height: 26px;
+ text-align: center;
+}
+
+.advantages-title {
+  font-family: PT Sans;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 28px;
+ text-align: center;
+}
+
+.advantages-description {
+  font-family: PT Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+
+.footer {
+  font-family: PT Sans;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+}
+
+.white {
+  color: white;
+}
 
 
 
